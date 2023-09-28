@@ -46,9 +46,9 @@ const skillsSection = {
   subTitle: "Leveraging my programming skills to optimize workflows - Maximizing results with minimal human input. ",
   skills: [
     emoji("⚡ Master of the Digital Canvas: Full Stack Development for Web and Mobile Platforms"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ AI/ML specialist with a knack for real-time analytics and predictive modeling."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Skilled software developer with expertise in Scrum, continuous integration, and debugging, committed to delivering high-quality software solutions."
     )
   ],
 
