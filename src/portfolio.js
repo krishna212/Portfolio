@@ -24,7 +24,7 @@ const greeting = {
   title: "Hi all, I'm Krishna",
   subTitle: emoji("Meet Krishna, a driven master's student in Computer Science at California State University, Long Beach. Always open to learning new things and molding myself to different work cultures."),
   resumeLink:
-    "https://drive.google.com/file/d/1RsBdXrkaQzu8O07KMshMqvqI1r9U9718/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Zw7rDwg3B32xBrn8aquvVgLT0Sgx2-mo/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -46,7 +46,7 @@ const skillsSection = {
   subTitle: "Leveraging my programming skills to optimize workflows - Maximizing results with minimal human input. ",
   skills: [
     emoji("⚡ Master of the Digital Canvas: Full Stack Development for Web and Mobile Platforms"),
-    emoji("⚡ AI/ML specialist with a knack for real-time analytics and predictive modeling."),
+    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
       "⚡ Skilled software developer with expertise in Scrum, continuous integration, and debugging, committed to delivering high-quality software solutions."
     )
@@ -83,6 +83,11 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+
     },
     {
       skillName: "docker",
@@ -151,7 +156,7 @@ const workExperiences = {
       role: "Instructional Student Assistant",
       company: "California State University, Long Beach",
       companylogo: require("./assets/images/csulb.png"),
-      date: "Aug 2022 - Dec 2022",
+      date: "Aug 2022 - May 2023",
       descBullets: [
         "Provided instructional support to over 100 students in the Pattern Recognition course through one-on-one tutoring sessions and group study sessions.",
         "Contributed to the development and implementation of course curriculum and lesson plans.",
@@ -162,25 +167,28 @@ const workExperiences = {
       role: "Software Engineer",
       company: "Temenos",
       companylogo: require("./assets/images/temenos.png"),
-      date: "Dec 2020 - Feb 2022",
+      date: "July 2020 - Feb 2022",
       descBullets: [
-        "Developed and maintained a banking application using Kony and Temenos T24.",
-        "Led the development of enterprise-level microservices for mobile and web applications.",
-        "Built APIs to manage millions of requests and facilitate middleware communication.",
-        "Implemented a feature for adding cards to mobile wallets like Apple Pay, Google Pay, and Samsung Pay.",
-        "Contributed to the design of Next Generation UI components using MVC architecture.",
-        "Handled continuous integration/deployment tasks including code reviews and bug fixing." ]
+        "Led the development of enterprise-level microservices, enhancing functionalities for mobile and web versions of the banking application, resulting in a 20% increase in system efficiency.",
+"Contributed to designing UI components using MVC architecture and its documentation, leading to a 25% improvement in user experience ratings.",
+"Developed REST APIs that managed millions of requests, facilitating seamless end to end middleware communication with the bank servers.",
+"Utilized Android Studio, Xcode, JavaScript for the successful development and maintenance of the banking application.",
+"Implemented continuous agile integration, and deployment practices, including pull requests, analytics, documentation, testing, debugging, and version control using Git, reducing deployment errors by 15%.",
+"Awarded “Fresher of the Year” in 2021 for significant contributions to the project, including the successful integration of credit/debit cards from the banking application to various mobile wallets, which increased transaction efficiency by 40%."]
     },
     {
-      role: "Full Stack Intern",
+      role: "Full Stack Developer",
       company: "Infosys",
       companylogo: require("./assets/images/infy.jpeg"),
-      date: "Jan 2020 - Mar 2020",
+      date: "Jan 2019 - June 2020",
       descBullets: [
-        "Worked as a Full Stack Intern at Infosys, gaining hands-on experience in the industry.",
-        "Underwent comprehensive training on the MERN Stack, with a focus on practical application over theory.",
-        "Acquired valuable insights into the workings of the corporate world, enhancing my professional Understanding.",
-        "Successfully designed and implemented a flight ticket booking Web Application as part of my internship project, demonstrating my ability to apply learned skills." 
+        "Redesigned and delivered a responsive User-facing front-end application using React, reducing access time by 50%.",
+        "Coordinated implementation and maintenance of a REST API using the Flask framework and implemented unit tests.",
+        "Managed EC2 instances, efficiently scaling using AWS Console and Terraform, resulting in a 30% reduction in infrastructure costs.",
+        "Utilized DevOps tools such as GIT, Bitbucket, Jenkins, and Ansible for the automated integration and deployment of different components and services of the team into the cloud servers.",
+        "Analyzed and fine-tuned optimized SQL scripts for data extraction, transformation, and loading.",
+        "Handled weekly production releases by achieving 100% unit test passes, documentation, and communicating with stakeholders, the product manager, and the tech lead for approvals.",
+        "Participated in on-call support to troubleshoot and resolve data-related issues with 0% escalations. "
       ]
     }
   ]
